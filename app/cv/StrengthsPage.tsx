@@ -31,7 +31,24 @@ const strengths = [
   {
     icon: <FaFire />,
     title: "Passionate.",
-    text: "I always look for new knowledge: be it new trends, principles or patterns of modern development. I love learning new features and technologies and easily get involved in new side-projects if it lets me experiment with something new. My latest passion is AI-assisted development as well as AI in product features. I have accumulated a lot of knowledge around that and can't wait to share it.",
+    text: (
+      <>
+        I always look for new knowledge: be it new trends, principles or
+        patterns of modern development. I love learning new features and
+        technologies and easily get involved in new side-projects if it lets me
+        experiment with something new (example: my finances project -{" "}
+        <a
+          href="https://finances-planning-new.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://finances-planning-new.vercel.app/
+        </a>
+        ). My latest passion is AI-assisted development as well as AI in product
+        features. I have accumulated a lot of knowledge around that and can't
+        wait to share it.
+      </>
+    ),
   },
 ];
 
