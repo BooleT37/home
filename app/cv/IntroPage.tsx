@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaLink } from "react-icons/fa";
 import PageWrapper from "./PageWrapper";
 
 export default function IntroPage() {
@@ -77,6 +77,13 @@ export default function IntroPage() {
         >
           <FaEnvelope />
           boolet37@gmail.com
+        </a>
+        <a
+          href="https://boolet-home.vercel.app/cv"
+          className="hidden print:flex items-center gap-2"
+        >
+          <FaLink />
+          boolet-home.vercel.app/cv
         </a>
       </div>
     </PageWrapper>
