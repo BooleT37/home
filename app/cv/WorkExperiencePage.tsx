@@ -14,41 +14,42 @@ export default function WorkExperiencePage() {
               <div className="font-bold text-xl">Compa</div>
               <div>Front-end lead engineer</div>
               <div className="text-gray-500 mt-1">
-                React, Typescript, Mobx, React-query, trpc, LangChain
+                React, Typescript, Mobx, React-query, tRPC, LangChain
               </div>
               <div className="mt-2">
                 Compa is an app for German architects and small architecture
-                firms. I led complex technical projects in a very high paced
+                firms. I led complex technical projects in a very fast paced
                 environment, and worked on enabling the team by making sure we
                 use the right tools and approaches in our ever more complex
                 codebase. My last project was a WhatsApp- and AI-based
-                Construction Diary product, which we implemented on a completely
-                new tech stack from scratch
+                Construction Diary product, which I built on node.js with my
+                colleague from scratch
               </div>
               <div className="mt-8">
                 <strong className="block">My key accomplishments:</strong>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
                   <li>
+                    As a part of a two-engineer team, developed a new WhatsApp-
+                    and AI-based Construction Diary product on a completely new
+                    tech stack from scratch
+                  </li>
+                  <li>
+                    Implemented client-side buffering for Bills of Quantities
+                  </li>
+                  <li>
                     Revamped the internal state management of the whole app to
                     enable creating rich and highly interactive features
                   </li>
                   <li>Led UX/UI revamp of the budgeting module</li>
-                  <li>
-                    Implemented client-side buffering for Bills of Quantities
-                  </li>
                   <li>Led time tracking project implementation</li>
                   <li>
-                    Did a deep but scoped research and implementation of the
+                    Made a deep but scoped research and implementation of the
                     rich text editing in the app
                   </li>
                   <li>
                     Co-led several hackathon activities for knowledge sharing,
-                    e.g. for AI features development
-                  </li>
-                  <li>
-                    Was part of a two-engineer team responsible for developing a
-                    new WhatsApp- and AI-based Construction Diary product in
-                    Node.js from scratch
+                    to enable the rest of the team to participate in AI features
+                    development
                   </li>
                 </ul>
               </div>
@@ -68,10 +69,10 @@ export default function WorkExperiencePage() {
               <div className="mt-4">
                 I was working as a <strong>Javascript engineer</strong> in the
                 browser extension team in Klarna. I was one of the go-to persons
-                for any architectural questions in the team. Recently, we have
-                acquired another company, called &ldquo;Piggy&rdquo;, and I led
-                the process of integrating several big features into our
-                codebase with the help of ex-Piggy employees.
+                for any architectural questions in the team. When Klarna
+                acquired another company and integrated it to our domain, I led
+                the process of merging several big features into our codebase
+                with the help of ex-Piggy employees.
               </div>
               <div className="mt-8">
                 <strong className="block">My key accomplishments:</strong>
