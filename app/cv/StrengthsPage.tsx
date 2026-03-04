@@ -45,8 +45,8 @@ const strengths = [
           https://finances-planning-new.vercel.app/
         </a>
         ). My latest passion is AI-assisted development as well as AI in product
-        features. I have accumulated a lot of knowledge around that and can't
-        wait to share it.
+        features. I have accumulated a lot of knowledge around that and
+        can&apos;t wait to share it.
       </>
     ),
   },

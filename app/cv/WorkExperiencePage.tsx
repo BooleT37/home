@@ -17,32 +17,38 @@ export default function WorkExperiencePage() {
                 React, Typescript, Mobx, React-query, trpc, LangChain
               </div>
               <div className="mt-2">
-                I was a lead engineer in the app targeting German architects and
-                small architecture firms. I led several big projects, such as
-                the website redesign, requests queue for smooth table editing or
-                time tracking management system. In parallel I enabled the
-                company by developing the tech stack and removing big blockers,
-                like a poorly designed state management solution. In May 2025 I
-                was moved as one of 2 engineers of the new project for managing
-                construction sites, with AI features. Together with my colleague
-                we had to manage all front-end and back-end decisions for the
-                new project from scratch, with extremely high pressure from the
-                product side.
+                Compa is an app for German architects and small architecture
+                firms. I led complex technical projects in a very high paced
+                environment, and worked on enabling the team by making sure we
+                use the right tools and approaches in our ever more complex
+                codebase. My last project was a WhatsApp- and AI-based
+                Construction Diary product, which we implemented on a completely
+                new tech stack from scratch
               </div>
               <div className="mt-8">
                 <strong className="block">My key accomplishments:</strong>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
                   <li>
-                    Introduced and implemented a ViewModel approach to our Mobx
-                    state management
+                    Revamped the internal state management of the whole app to
+                    enable creating rich and highly interactive features
                   </li>
-                  <li>Lead migration of our codebase to react-query</li>
+                  <li>Led UX/UI revamp of the budgeting module</li>
                   <li>
-                    Co-Led several hackathon activities for knowledge sharing
+                    Implemented client-side buffering for Bills of Quantities
+                  </li>
+                  <li>Led time tracking project implementation</li>
+                  <li>
+                    Did a deep but scoped research and implementation of the
+                    rich text editing in the app
                   </li>
                   <li>
-                    Built, deployed and maintained a highly complicated project
-                    with AI features in very tight deadlines, with my colleague
+                    Co-led several hackathon activities for knowledge sharing,
+                    e.g. for AI features development
+                  </li>
+                  <li>
+                    Was part of a two-engineer team responsible for developing a
+                    new WhatsApp- and AI-based Construction Diary product in
+                    Node.js from scratch
                   </li>
                 </ul>
               </div>
