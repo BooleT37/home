@@ -6,8 +6,49 @@ import {
   FaLink,
   FaPhone,
   FaMapMarkerAlt,
+  FaCode,
+  FaServer,
+  FaBrain,
+  FaDatabase,
+  FaLayerGroup,
+  FaGlobe,
 } from "react-icons/fa";
 import PageWrapper from "./PageWrapper";
+
+const skills = [
+  {
+    icon: <FaCode />,
+    category: "Frontend",
+    items:
+      "React, TypeScript, Redux, MobX, Jotai, Vite, Webpack, WebGL, Angular, CSS3, CSS-in-JS, Next.js, TanStack Start",
+  },
+  {
+    icon: <FaServer />,
+    category: "Backend",
+    items:
+      "Node.js: Nest, Hapi, Express, tRPC. Java: Spring Boot, Hibernate, Lombok, Thymeleaf, jte. Python: Django, Flask. C#: ASP.NET",
+  },
+  {
+    icon: <FaBrain />,
+    category: "AI / ML",
+    items: "LangChain, Langfuse, NumPy, Pandas, Scikit-learn, Matplotlib",
+  },
+  {
+    icon: <FaDatabase />,
+    category: "Databases",
+    items: "PostgreSQL, Prisma, Drizzle",
+  },
+  {
+    icon: <FaLayerGroup />,
+    category: "Patterns",
+    items: "SOLID, DRY, KISS (and when to apply them)",
+  },
+  {
+    icon: <FaGlobe />,
+    category: "Languages",
+    items: "Russian (native), English (C1), German (B1)",
+  },
+];
 
 export default function IntroPage() {
   return (
@@ -48,8 +89,8 @@ export default function IntroPage() {
           <hr className="border-t border-gray-200" />
         </div>
       </div>
-      <hr className="mt-8 border-t border-gray-200" />
-      <div className="mt-8 text-lg leading-relaxed break-inside-avoid font-semibold">
+      <hr className="mt-4 border-t border-gray-200" />
+      <div className="mt-4 text-lg leading-relaxed break-inside-avoid font-semibold">
         I am a Full-stack web developer with a lean on Frontend. I&apos;ve been
         in a field of web development since 2014, constantly learning, trying
         out and championing new things. I&apos;ve worked in huge corporations as
@@ -58,8 +99,8 @@ export default function IntroPage() {
         positions since 2019, I am looking to continue to expand my leadership
         skills, to enable more people and push through complicated projects.
       </div>
-      <hr className="mt-8 border-t border-gray-200" />
-      <div className="mt-6 grid grid-cols-2 gap-1 text-sm text-gray-600 leading-relaxed">
+      <hr className="mt-4 border-t border-gray-200" />
+      <div className="mt-4 grid grid-cols-2 gap-1 text-sm text-gray-600 leading-relaxed">
         <div className="flex flex-col gap-1">
           <a
             href="mailto:boolet37@gmail.com"
@@ -104,6 +145,18 @@ export default function IntroPage() {
             boolet-home.vercel.app/cv
           </a>
         </div>
+      </div>
+      <hr className="mt-6 border-t border-gray-200" />
+      <div className="mt-6 flex flex-col gap-2 text-sm text-gray-600">
+        {skills.map(({ icon, category, items }) => (
+          <div key={category} className="flex items-baseline gap-2">
+            <span className="shrink-0 translate-y-0.5">{icon}</span>
+            <span>
+              <span className="font-semibold text-black">{category}:</span>{" "}
+              {items}
+            </span>
+          </div>
+        ))}
       </div>
     </PageWrapper>
   );
