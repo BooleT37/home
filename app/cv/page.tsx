@@ -8,8 +8,8 @@ export default function CV() {
   return (
     <main className="min-h-screen bg-gray-200 py-10 print:bg-transparent print:p-0">
       <IntroPage />
-      <EducationPage />
       <WorkExperiencePage />
+      <EducationPage />
       <StrengthsPage />
       <PrintButton />
     </main>
