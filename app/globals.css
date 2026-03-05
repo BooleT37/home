@@ -11,6 +11,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-raleway);
   --font-handwritten: var(--font-patrick-hand-sc);
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 690px;
 }
 
 .font-handwritten {
