@@ -73,8 +73,8 @@ export default function IntroPage() {
           <hr className="border-t-2 border-black" />
         </div>
       </div>
-      <div className="flex gap-8">
-        <div className="rounded border-8 border-[#af664e] shadow-[0_4px_24px_rgba(107,58,42,0.3)] shrink-0">
+      <div className="flex flex-col gap-4 sm:grid sm:grid-cols-[auto_1fr] sm:grid-rows-[auto_1fr] sm:gap-8">
+        <div className="order-2 sm:order-0 sm:row-span-2 rounded border-8 border-[#af664e] shadow-[0_4px_24px_rgba(107,58,42,0.3)] shrink-0 self-start">
           <Image
             src="/my-photo.jpeg"
             alt="My photo"
@@ -83,63 +83,61 @@ export default function IntroPage() {
             className="block"
           />
         </div>
-        <div className="flex flex-col justify-between flex-1">
-          <div className="text-right text-xl font-semibold leading-relaxed w-fit ml-auto">
-            <div>Front-end/Full-stack</div>
-            <hr className="border-t border-gray-200" />
-            <div>Lead developer</div>
-            <hr className="border-t border-gray-200" />
-            <div>
-              <Image
-                src="/compa-logo.svg"
-                alt="Compa"
-                width={20}
-                height={20}
-                className="inline-block mr-2"
-              />
-              Compa
-            </div>
-            <hr className="border-t border-gray-200" />
+        <div className="order-1 sm:order-0 text-left sm:text-right text-xl font-semibold leading-relaxed w-fit sm:ml-auto">
+          <div>Front-end/Full-stack</div>
+          <hr className="border-t border-gray-200" />
+          <div>Lead developer</div>
+          <hr className="border-t border-gray-200" />
+          <div>
+            <Image
+              src="/compa-logo.svg"
+              alt="Compa"
+              width={20}
+              height={20}
+              className="inline-block mr-2"
+            />
+            Compa
           </div>
-          <div className="grid grid-cols-2 gap-1 text-sm text-gray-600 leading-relaxed">
-            <div className="flex flex-col gap-1">
-              <a
-                href="mailto:boolet37@gmail.com"
-                className="flex items-center gap-2 hover:text-black"
-              >
-                <FaEnvelope />
-                boolet37@gmail.com
-              </a>
-              <span className="flex items-center gap-2">
-                <FaPhone />
-                +4915156183686
-              </span>
-            </div>
-            <div className="flex flex-col gap-1 items-end">
-              <span className="flex items-center gap-2">
-                <FaMapMarkerAlt />
-                Berlin, Germany
-              </span>
-              <a
-                href="https://github.com/boolet37"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-black"
-              >
-                <FaGithub />
-                github.com/boolet37
-              </a>
-            </div>
+          <hr className="border-t border-gray-200" />
+        </div>
+        <div className="order-3 sm:order-0 sm:self-end grid grid-cols-1 md:grid-cols-2 gap-1 text-sm text-gray-600 leading-relaxed">
+          <div className="flex flex-col gap-1">
             <a
-              href="https://www.linkedin.com/in/alexey-levin-8766a9168/?locale=en_US"
+              href="mailto:boolet37@gmail.com"
+              className="flex items-center gap-2 hover:text-black"
+            >
+              <FaEnvelope />
+              boolet37@gmail.com
+            </a>
+            <span className="flex items-center gap-2">
+              <FaPhone />
+              +4915156183686
+            </span>
+          </div>
+          <div className="flex flex-col gap-1 md:items-end">
+            <span className="flex items-center gap-2">
+              <FaMapMarkerAlt />
+              Berlin, Germany
+            </span>
+            <a
+              href="https://github.com/boolet37"
               target="_blank"
               rel="noopener noreferrer"
-              className="col-span-2 flex items-center gap-2 hover:text-black"
+              className="flex items-center gap-2 hover:text-black"
             >
-              <FaLinkedin />
-              linkedin.com/in/alexey-levin-8766a9168/
+              <FaGithub />
+              github.com/boolet37
             </a>
           </div>
+          <a
+            href="https://www.linkedin.com/in/alexey-levin-8766a9168/?locale=en_US"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:col-span-2 flex items-center gap-2 hover:text-black"
+          >
+            <FaLinkedin />
+            linkedin.com/in/alexey-levin-8766a9168/
+          </a>
         </div>
       </div>
       <hr className="mt-8 border-t border-gray-200" />
