@@ -67,6 +67,13 @@ const skills = [
 export default function IntroPage() {
   return (
     <PageWrapper>
+      <a
+        href="https://boolet-home.vercel.app/cv"
+        className="hidden print:flex absolute top-8 right-8 items-center gap-2 text-sm text-gray-400"
+      >
+        <FaLink />
+        boolet-home.vercel.app/cv
+      </a>
       <div>
         <div className="inline-block mb-2">
           <h1 className="text-5xl font-bold mb-2">Alexey Levin</h1>
@@ -165,13 +172,6 @@ export default function IntroPage() {
           </div>
         ))}
       </div>
-      <a
-        href="https://boolet-home.vercel.app/cv"
-        className="hidden print:flex items-center gap-2 text-sm text-gray-400 justify-end mt-auto pt-4"
-      >
-        <FaLink />
-        boolet-home.vercel.app/cv
-      </a>
     </PageWrapper>
   );
 }
