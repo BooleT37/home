@@ -4,10 +4,16 @@ import {
   FaClock,
   FaUsers,
   FaFire,
+  FaUserCheck,
 } from "react-icons/fa";
 import PageWrapper from "./PageWrapper";
 
 const strengths = [
+  {
+    icon: <FaUserCheck />,
+    title: "Customer-oriented.",
+    text: "I am convinced that to deliver a quality product you need to know the customer almost as well as your tech stack. That's why I strongly value end-to-end ownership (that starts and ends with the customer), and always look for the ways to know them better: from analytic metrics and user requests, to direct interaction, when possible. For me, the question of \"why\" we need to do our next thing is equally, if not more important, as \"what\" we need to do.",
+  },
   {
     icon: <FaGraduationCap />,
     title: "Educated.",
