@@ -157,6 +157,15 @@ export default function IntroPage() {
         positions since 2019, I am looking to continue to expand my leadership
         skills, to enable more people and push through complicated projects.
       </div>
+      <a
+        href="https://iulff6ok4r.ufs.sh/f/PCpmIS4b2pFijx1g7AphlePgoE3s0kCnwSajpUzdJXAy8iTu"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-4 flex items-center gap-2 text-sm text-gray-500 hover:text-black print:hidden"
+      >
+        <FaLink />
+        Recommendation letter
+      </a>
       <hr className="mt-8 border-t border-gray-200" />
       <div className="mt-8 flex flex-col gap-2 text-base text-gray-600">
         {skills.map(({ icon, category, items }) => (
