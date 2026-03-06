@@ -7,7 +7,9 @@ export default function WorkExperiencePage() {
       <div className="divide-y divide-gray-200">
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2022-07</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2026-03</span>
+            <span className="whitespace-nowrap">2022-07</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2026-03</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">Compa</div>
@@ -30,6 +32,14 @@ export default function WorkExperiencePage() {
                   As a part of a two-engineer team, developed a new WhatsApp-
                   and AI-based Construction Diary product on a completely new
                   tech stack from scratch
+                </li>
+                <li>
+                  Improved visibility of our project progress, e.g. by pivoting
+                  to GH integration and setting up hill charts
+                </li>
+                <li>
+                  Constantly oversaw our unit and integration tests, and removed
+                  flakiness number of times
                 </li>
                 <li>
                   Implemented client-side buffering for Bills of Quantities
@@ -55,7 +65,9 @@ export default function WorkExperiencePage() {
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2021-03</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2022-06</span>
+            <span className="whitespace-nowrap">2021-03</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2022-06</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">Klarna</div>
@@ -96,7 +108,9 @@ export default function WorkExperiencePage() {
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2020-02</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2021-02</span>
+            <span className="whitespace-nowrap">2020-02</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2021-02</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">Alfa-Bank</div>
@@ -142,7 +156,9 @@ export default function WorkExperiencePage() {
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2018-11</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2020-01</span>
+            <span className="whitespace-nowrap">2018-11</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2020-01</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">Alfa-Bank</div>
@@ -183,7 +199,9 @@ export default function WorkExperiencePage() {
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2017-03</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2018-11</span>
+            <span className="whitespace-nowrap">2017-03</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2018-11</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">SKB Contour</div>
@@ -232,7 +250,9 @@ export default function WorkExperiencePage() {
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2017-01</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2017-03</span>
+            <span className="whitespace-nowrap">2017-01</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2017-03</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">Freelance</div>
@@ -279,7 +299,9 @@ export default function WorkExperiencePage() {
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-[7rem_1fr] py-4">
           <div className="font-semibold text-gray-500 text-lg pb-2 sm:pb-0 sm:pr-6 sm:border-r sm:border-gray-200">
-            <span className="whitespace-nowrap">2014-06</span><br className="hidden sm:block"/>{" "}<span className="whitespace-nowrap">to 2016-12</span>
+            <span className="whitespace-nowrap">2014-06</span>
+            <br className="hidden sm:block" />{" "}
+            <span className="whitespace-nowrap">to 2016-12</span>
           </div>
           <div className="sm:pl-6">
             <div className="font-bold text-xl">SKB Contour</div>
