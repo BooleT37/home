@@ -22,7 +22,7 @@ const skills = [
     icon: <FaCode />,
     category: "Frontend",
     items:
-      "React, TypeScript, Redux, MobX, Jotai, Vite, WebGL, Angular, CSS3, CSS-in-JS, Next.js",
+      "React, TypeScript, Redux, MobX, Jotai, Vite, WebGL, Angular, Tailwind, CSS-in-JS, Next.js",
   },
   {
     icon: <FaServer />,
